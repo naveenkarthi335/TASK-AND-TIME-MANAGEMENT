@@ -1,0 +1,53 @@
+/* src/Components/Footer.css */
+
+.footer {
+  background-color: #3b3b3b;
+  color: #fff;
+  padding: 20px 0;
+  text-align: left;
+  width: 100%;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 20px;
+  min-width: 250px;
+}
+
+.footer-logo {
+  width: 100px;
+}
+
+.footer-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.footer-social-icons a {
+  color: #fff;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #444;
+  padding-top: 20px;
+  width: 100%;
+}
+
+/* Add this to prevent horizontal scroll */
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
